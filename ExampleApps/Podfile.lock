@@ -1,0 +1,33 @@
+PODS:
+  - CryptoSwift (0.10.0)
+  - Starscream (3.1.1)
+  - WalletConnectSwift (1.0.1):
+    - CryptoSwift (~> 0.10.0)
+    - Starscream (~> 3.1)
+
+DEPENDENCIES:
+  - WalletConnectSwift (from `https://github.com/vladyslav-iosdev/WalletConnectSwift.git`, branch `AlphaWallet`)
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+    - Starscream
+
+EXTERNAL SOURCES:
+  WalletConnectSwift:
+    :branch: AlphaWallet
+    :git: https://github.com/vladyslav-iosdev/WalletConnectSwift.git
+
+CHECKOUT OPTIONS:
+  WalletConnectSwift:
+    :commit: 9e3a01ddb72077382b5e5a23dff0b4945338e2f4
+    :git: https://github.com/vladyslav-iosdev/WalletConnectSwift.git
+
+SPEC CHECKSUMS:
+  CryptoSwift: 6c778d69282bed3b4e975ff97a79d074f20bb011
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  WalletConnectSwift: f61486e9c8885cc87d574b5b48074c4a73a9a417
+
+PODFILE CHECKSUM: a2bd28ee431fa9c48fa1e2f2515079f8c82abcdb
+
+COCOAPODS: 1.10.0

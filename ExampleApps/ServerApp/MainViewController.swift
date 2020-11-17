@@ -5,6 +5,7 @@
 import UIKit
 import EthereumKit
 import WalletConnectSwift
+import CryptoEthereumSwift
 
 class MainViewController: UIViewController {
 
